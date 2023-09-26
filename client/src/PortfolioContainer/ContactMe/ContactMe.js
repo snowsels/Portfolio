@@ -103,13 +103,6 @@ export default function ContactMe(props) {
               <button type="submit">
                 send
                 <i className="fa fa-paper-plane" />
-                {bool ? (
-                  <b className="load">
-                    <img src={load1} alt="image not responding" />
-                  </b>
-                ) : (
-                  ""
-                )}
               </button>
             </div>
           </form>
